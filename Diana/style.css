@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800);
+/*font-family: 'Raleway', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+/*font-family: 'Lato', sans-serif;*/
+
+/*BODY STYLE*/
+body {
+	background: #f4f4f4;
+}
+
+/*HEADER STYLE*/
+.navbar-inverse {
+	min-height: 80px;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar-inverse .navbar-brand {
+	font-family: fantasy;
+	/*font-weight: bold;*/
+	font-size: 36px;
+	color: skyblue;
+	line-height: 80px;
+	padding: 0;
+    'Raleway', sans-serif
+}
+.navbar-inverse .navbar-brand span,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover {
+	color: #fe0000;
+     
+}
+.navbar-inverse .navbar-nav>li>a {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: skyblue;
+	text-transform: uppercase;
+	padding-top: 29px;
+    padding-bottom: 29px;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	/*border-bottom: 5px solid #fe0000;*/
+	color: #fe0000;
+}
+.navbar-toggle {
+	margin-top: 24px;
+}
+.dropdown-menu {
+    min-width: 250px;
+    padding: 10px 10px;
+}
+.dropdown-menu .btn btn-default {
+    background: deepskyblue;
+    color: #fff;
+}
+
+
+/*HERO STYLE*/
+#hero .carousel-inner>.item>img {
+	height: 550px;
+	width: 100%;
+}
+#hero .carousel-inner>.item .carousel-caption {
+	top: 45%;
+	transform: translateY(-40%);
+    right: 25%;
+    left: 25%;
+}
+#hero .carousel-inner>.item .carousel-caption h1 {
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+    padding: 20px 10px;
+    color: #fff ;
+}
+
+#hero .carousel-inner>.item .carousel-caption h1 a {
+	font-family: cursive ;
+	font-size: 50px;
+	line-height: 50px;
+	color: lightblue;
+}
+
+/*MAIN CONTENT STYLE*/
+#main-content {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+#main-content .specialize {
+	margin-bottom: 60px;
+}
+#main-content .specialize h2,
+.comic h2 {
+    font-size: 36px;
+    font-family: arial;
+    font-weight: bold;
+    padding-left: 15px;
+    color: #4a4a4a;
+    margin-bottom: 40px;
+}
+#main-content .specialize h3{
+     font-size: 36px;
+    font-family: arial;
+    font-weight: bold;
+    padding-left: 500px;
+    color: red;
+    margin-bottom: 40px;
+}
+#main-content .specialize .news-block {
+	margin-bottom: 10px;
+    width: 350px;
+    height: 550px;
+}
+#main-content .specialize .news-block1 {
+	margin-bottom: 10px;
+    margin-left: 450px;
+    width: 300px;
+    height: 500px;
+}
+#main-content .specialize .news-block a,
+aside .aside-item a {
+    font-family: arial;
+    font-size: 16px;
+    word-break: break-all;
+    color: #4a4a4a;
+}
+.comic h2 {padding-left: 0}
+
+#main-content .single-news img {
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+#main-content .single-news p {
+	font-size: 18px;
+}
+
+/*ASIDE STYLY*/
+aside h3 {
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+
+aside .aside-item {
+	margin-bottom: 40px;
+}
+aside .vote {
+    width: 100%;
+    height: 285px;
+    border: 5px solid #4a4a4a;
+    padding: 10px;
+    font-weight: bold;
+}
+aside .vote h5 {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	color: #4a4a4a;
+	margin-bottom: 15px;
+}
+.vote input[type="submit"] {
+    background: transparent;
+    border: 3px solid #4a4a4a;
+    border-radius: 5px;
+    padding: 0px 15px;
+    position: absolute;
+    bottom: 60px;
+    right: 50px;
+}
+
+/*FOOTER STYLE*/
+footer .top-footer {
+	background: #252525;
+	padding: 30px;
+}
+footer .top-footer h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+footer .top-footer a {
+	color: #fff;
+
+}
+footer .top-footer .sitemap li {
+	margin-bottom: 15px;
+	text-transform: uppercase
+}
+footer .top-footer .popular li {
+	margin-bottom: 15px;
+}
+footer .top-footer .popular li img {
+	width: 67px;
+	height: 67px;
+	margin-right: 30px;
+}
+footer .social li a i {font-size: 60px}
+footer .copyright p {
+	margin-top: 10px;
+	font-weight: bold;
+  //  background:darkgray ;
+}
+footer .copyright p a {
+	color: #fe0000;
+}
